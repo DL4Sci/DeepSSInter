@@ -1,0 +1,22 @@
+name: DeepSSInter
+channels:
+  - pytorch
+  - bioconda
+  - salilab
+  - conda-forge
+  - defaults
+dependencies:
+  - biopython=1.78
+  - cudatoolkit=11.0.221
+  - matplotlib=3.6.2
+  - numpy=1.19.2
+  - pandas=1.4.2
+  - pip=24.0
+  - python=3.8.13
+  - pytorch=1.7.1
+  - torchaudio=0.7.2
+  - torchvision=0.8.2
+  - pip:
+      - -e .
+      - https://files.pythonhosted.org/packages/5f/b1/26ed8d95dedcc93f4fca9f440ecf01aa1268007fbff0677114f3a4272994/dgl-0.6.1-cp38-cp38-manylinux1_x86_64.whl
+
