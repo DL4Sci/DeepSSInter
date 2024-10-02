@@ -1,17 +1,15 @@
+================License==================
+
 DeepSSInter is freely available for academic or non-commercial users. 
 Released under GNU General Public License Version 3.
 
-==================================================================
-                   About DeepSSInter
-==================================================================
+================About DeepSSInter==================
 
 The program is developed to predict the contact preditions across the interfaces of
 the complexes with the two monomer structure as input. 
 
 
-===================================================================
-              Software Requirements
-===================================================================
+==============Software Requirements=================
 
 1. the required packages are listed in environment.yaml, install it according the conda commnad
     conda env create -f environment.yaml
@@ -35,9 +33,8 @@ the complexes with the two monomer structure as input.
     pip install -e .
 
 
-===============================================================
-                       Examples
-===============================================================
+=================Examples=================
+
 Here is a demo to run DeepSSInter:
 
     cd project
